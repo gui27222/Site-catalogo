@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+
+    <div id="container-pesquisa">
+        <input type="text" id="CIA" placeholder="Digite o nome do produto...">
+    </div>
+
+    <script src="script_wow.js">
+    </script>
+    <style src="cat.css">
+        
+        .flex_box {
+            background-color: rgb(203, 209, 236);
+            flex: 1 0 200px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.443);
+            gap: 8px;
+            text-align: center;
+            padding: 15px;
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            min-height: 350px;
+        }
+
+        #caixinha {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        #CIA {
+            width: 100%;
+            max-width: 400px;
+            padding: 12px 20px;
+            font-size: 16px;
+            border: 2px solid #a92929;
+            border-radius: 20px;
+            outline: none;
+            box-shadow: 0 4px 6px rgba(76, 76, 76, 0.712);
+            transition: all 0.3s ease;
+        }
+
+        #CIA:focus {
+            border-color: #3498db;
+            box-shadow: 0 4px 12px rgba(52, 152, 219, 0.2);
+            background-color: #ffffff; 
+        }
+
+        #container-pesquisa {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        strong{
+            color: rgb(16, 189, 0);
+            font-size: 1.2rem;
+        }
+    </style>
+    
+</body>
+</html>
